@@ -1,0 +1,119 @@
+
+.picture-container {
+    width: 160px;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.picture {
+    width: 160px;
+    height: 160px;
+    border: 2px dashed #CCCCCC;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin: 0px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+.picture:hover {
+    border-color: #DD2F6E;
+}
+
+.content.ct-wizard-green .picture:hover {
+    border-color: #05ae0e;
+}
+
+.content.ct-wizard-blue .picture:hover {
+    border-color: #3472f7;
+}
+
+.content.ct-wizard-orange .picture:hover {
+    border-color: #ff9500;
+}
+
+.content.ct-wizard-red .picture:hover {
+    border-color: #ff3b30;
+}
+
+.picture input[type="file"] {
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0 !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none
+}
+
+.picture-src {
+    width: 100%;
+
+}
+
+#imageUpload {
+    display: none;
+}
+
+#profileImage {
+    cursor: pointer;
+}
+
+#profile-container {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    margin: 20px auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#profile-container img {
+    width: 150px;
+    height: 150px;
+}
+
+.chat-container {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border: 1px solid rgb(231, 231, 231);
+    margin-top: 20px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.chat-container .message {
+    width: 100%;
+    display: block;
+}
+
+.chat-container p {
+    display: block;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+}
+
+.text-right-red {
+    background-color: hsla(0, 100%, 50%);
+    color: white;
+    margin-left: 10%;
+}
+
+.text-left-grey {
+    background-color: rgb(224, 223, 223);
+    color: black;
+    margin-right:10%;
+}
